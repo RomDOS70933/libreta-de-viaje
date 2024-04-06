@@ -5,9 +5,9 @@ items:
     url: /guias
   - text: Experiencias
     url: /experiencias
-  - text: Blog
-    url: /blog
   - text: Sobre Mi
     url: /sobremi
   - text: Contacto
     url: /contacto
+  - text: Blog
+    url: /blog
