@@ -7,3 +7,7 @@ items:
     url: /experiencias
   - text: Blog
     url: /blog
+  - text: Sobre Mi
+    url: /sobremi
+  - text: Contacto
+    url: /contacto
