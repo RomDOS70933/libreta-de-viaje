@@ -1,13 +1,13 @@
 items:
   - text: Destinos
-    url: /destinos
+    url: destinos
   - text: Guias
-    url: /guias
+    url: guias
   - text: Experiencias
-    url: /experiencias
+    url: experiencias
   - text: Sobre Mi
-    url: /sobremi
+    url: sobremi
   - text: Contacto
-    url: /contacto
+    url: contacto
   - text: Blog
     url: /blog
