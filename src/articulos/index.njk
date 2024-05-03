@@ -1,9 +1,10 @@
 ---
-layout: blog
+title: Destinos
+layout: default
 ---
-
+<!-- In your template file -->
 <section class="mt-15">
-    {% set postslist = collections.post %}
+    {% set postslist = collections.articulo %}
 
     {% for post in postslist | reverse %}
         <article class="my-8">
@@ -20,8 +21,7 @@ layout: blog
                 <time>
                     {{ post.date | readableDate }}
                     by
-                    <a>{{ post.data.author }}</a>
-
+                <a>{{ post.data.author }}</a>
                 </time>
             </p>
             {% if post.data.description %}
@@ -29,13 +29,11 @@ layout: blog
                     {{ post.data.description }}
                 </p>
             {% endif %}
-
             <p>
                 <a href="{{ post.url | url }}" class="text-indigo-500 font-bold text-lg">
-                    Read more →
-                </a>
+                Read more →
+            </a>
             </p>
-
         </article>
     {% endfor %}
 </section>

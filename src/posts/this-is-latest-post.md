@@ -6,6 +6,8 @@ description: Bring to the table win-win survival strategies to ensure proactive
   solution.
 date: 2020-09-23T15:13:13.021Z
 author: Surjith S M
+image: /static/img/pescatore.jpeg
+image_alt: image_de_hk
 tags: second-tag
 ---
 

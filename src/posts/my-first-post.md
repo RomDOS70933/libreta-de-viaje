@@ -5,10 +5,13 @@ description: Capitalize on low hanging fruit to identify a ballpark value added
   clickthroughs from DevOps.
 author: Surjith S M
 date: 2020-09-01
+image: /static/img/pescatore.jpeg
+image_alt: image_de_hk
 tags:
   - left
   - center
   - right
+  - belgica
 ---
 # This is a Heading h1
 

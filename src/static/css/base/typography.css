@@ -1,0 +1,22 @@
+/* General tipografía */
+
+body {
+  font-family: var(--font-1);
+  line-height: 1.5;
+  font-family: 'Lato';
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+h1,
+h2 {
+  font-family: 'Abril Fatface';
+  font-style: normal;
+}
+
+a {
+  font-family: 'Lato';
+  font-style: normal;
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}

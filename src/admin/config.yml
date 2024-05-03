@@ -10,14 +10,14 @@ public_folder: "/static/img"
 
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 collections:
-  - label: "Blog"
-    name: "blog"
-    folder: "src/posts"
+  - label: "Articulos"
+    name: "articulos"
+    folder: "src/articulos"
     create: true
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
@@ -29,9 +29,30 @@ collections:
         name: "tags"
         multiple: true
         create: true
-        options: ["Tags", "created", "from", "config.yml"]
+        options: []
+
+  - label: "Guias"
+    name: "guias"
+    folder: "src/guias"
+    create: true
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - widget: select
+        label: "tags"
+        name: "tags"
+        multiple: true
+        create: true
+        options: []
+
   - label: "Settings"
     name: "settings"
+    create: true
     editor:
       preview: false
     files:
@@ -42,7 +63,7 @@ collections:
           - label: Nav Items
             name: items
             widget: list
-            allow_add: false
+            allow_add: true
             collapsed: false
             fields:
               - { label: Title, name: text, widget: string }
