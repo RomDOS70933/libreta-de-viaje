@@ -1,6 +1,6 @@
 items:
   - text: ARTICULOS
-    url: /articulos
+    url: /posts
   - text: GUIAS
     url: /guias
   - text: EXPERIENCIAS

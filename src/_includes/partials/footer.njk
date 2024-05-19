@@ -1,15 +1,52 @@
-<footer class="{{ 'fixed' if path == 'home' }} text-center w-full py-4 bg-yellow-400">
-    <small class="text-gray-500">
+<footer class="blog-footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>LIBRETA DE VIAJE</h3>
+                <p>Viaja para volver sin volver</p>
+            </div>
+            <div class="footer-section">
+                <h3>Categorias</h3>
+                <ul>
+                    <li>
+                        <a href="#">Articulos</a>
+                    </li>
+                    <li>
+                        <a href="#">Guias</a>
+                    </li>
+                    <li>
+                        <a href="#">Experiencias</a>
+                    </li>
+                    <!-- Add more categories as needed -->
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contacto</h3>
+                <ul class="social-icons">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <!-- Add more social icons as needed -->
+                </ul>
+            </div>
+        </div>
+    </div>
+    <small class="copyright">
         Copyright ©
         {{settings.name}}
-        2024. Made with ❤ by
+        2024. Made with ❤ by 
         <a href="{{settings.url}}" target="_blank" class="underline">{{settings.author}}</a>
-        •
-        <a
-            href="https://github.com/surjithctly/neat-starter"
-            class="underline"
-            target="_blank"
-            rel="noopener"
-        >View on Github</a>
     </small>
 </footer>

@@ -12,9 +12,9 @@ public_folder: "/static/img"
 local_backend: true
 publish_mode: editorial_workflow
 collections:
-  - label: "Articulos"
-    name: "articulos"
-    folder: "src/articulos"
+  - label: "Posts"
+    name: "posts"
+    folder: "src/posts"
     create: true
     editor:
       preview: true
@@ -22,25 +22,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Author", name: "author", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
-        create: true
-        options: []
-
-  - label: "Guias"
-    name: "guias"
-    folder: "src/guias"
-    create: true
-    editor:
-      preview: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
+      - { label: "Image", name: "image", widget: "image" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
       - widget: select

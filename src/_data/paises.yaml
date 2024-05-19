@@ -1,157 +1,33 @@
 items:
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
+  - text: Bélgica
+    url: /articles
+  - text: Canadá
+    url: /articles
   - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
-  - text: Canada
-    url: /articles?pais=canada
-  - text: Corea del Sur
-    url: /articles?pais=corea-del-sur
-  - text: Belgica
-    url: /articles?pais=belgica
+    url: /articles
+  - text: España
+    url: /articles
+  - text: Estados Unidos
+    url: /articles
+  - text: Francia
+    url: /articles
+  - text: Finlandia
+    url: /articles
+  - text: Grecia
+    url: /articles
+  - text: Hong-Kong
+    url: /articles
+  - text: Hungria
+    url: /articles
+  - text: Italia
+    url: /articles
+  - text: Japon
+    url: /articles
+  - text: Mauricio
+    url: /articles
+  - text: Mexico
+    url: /articles
+  - text: Peru
+    url: /articles
+  - text: Portugal
+    url: /articles
