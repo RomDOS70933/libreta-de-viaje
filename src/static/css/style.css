@@ -11,6 +11,9 @@
 /* LISTS */
 @import url("lists/lists.css");
 
+/* POST */
+@import url("post/post.css");
+
 /* HERO BANNER */
 .main-banner-container {
     margin: 50px;

@@ -5,7 +5,7 @@ description: Ven conmigo para descubrir los encantos del "Plat Pays". De los
   Bruselas, nos vamos juntos a este pais maravilloso
 author: Rom Dos
 date: 2024-04-03T18:13:45.717Z
-image: /static/img/pescatore.jpeg
+image: /static/img/map.svg
 image_alt: image_de_hk
 tags:
   - created

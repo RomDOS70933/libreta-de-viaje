@@ -2,20 +2,45 @@
 layout: default
 prism: true
 ---
-
-<div>
-    <div>
-        <h1>{{title}}</h1>
-        <p>
-            <time>
-                {{ date | readableDate }}
-                by
-                <a>{{ author }}</a>
-
-            </time>
-        </p>
-
-    </div>
-    <article>
-        {{ content | safe }}</article>
+<!--BANDEAU-->
+<div class="bander-container" id="main-img-post">
+    <div class="guias-img-container"></div>
 </div>
+
+<div class="main-article-content">
+    <!--HERO BANNER-->
+    <div class="posts-banner-container">
+        <div class="posts-banner-txt-container">
+            <h1 id="index-title">
+                {{ title }}
+            </h1>
+            <p>
+                <time>
+                    {{ date | readableDate }}
+                    by
+                    <a>{{ author }}</a>
+
+                </time>
+            </p>
+            <h4 id="index-subtitle">
+                {{ description }}
+            </h4>
+
+        </div>
+    </div>
+
+    <article class="main-article-content-txt">
+        {{ content | safe }}
+    </article>
+</div>
+
+<script>
+    // This script block will set the background image using the Nunjucks template variable
+    document.addEventListener("DOMContentLoaded", function () {
+        const bgElement = document.getElementById('main-img-post');
+        const imageUrl = '{{ image }}'; // Nunjucks template variable
+
+        // Set the background image using the template variable
+        bgElement.style.backgroundImage = `url(${imageUrl})`;
+    });
+</script>
