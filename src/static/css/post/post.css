@@ -1,0 +1,45 @@
+.main-article-content {
+    margin: 10%;
+}
+
+.main-article-content-txt {
+    margin-top: 7%;
+}
+
+.main-article-content-txt h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato';
+    margin-bottom: 2%;
+}
+
+.main-article-content-txt h1 {
+    font-size: 2.5em;
+}
+
+.main-article-content-txt h2 {
+    font-size: 2em;
+}
+
+.main-article-content-txt h3 {
+    font-size: 1.75em;
+}
+
+.main-article-content-txt h4 {
+    font-size: 1.5em;
+}
+
+.main-article-content-txt h5 {
+    font-size: 1.25em;
+}
+
+.main-article-content-txt h6 {
+    font-size: 1em;
+}
+
+.main-article-content-txt p {
+    font-size: 1em;
+}
