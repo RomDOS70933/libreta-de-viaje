@@ -8,6 +8,25 @@
             {% endfor %}
         {% endif %}
     </nav>
+    <nav class="nav-items right">
+        <!--Menu-->
+        {% if navigation_right.items %}
+            {% for item in navigation_right.items %}
+                <a href="{{ item.url }}">{{ item.text }}</a>
+            {% endfor %}
+        {% endif %}
+    </nav>
+    <div class="off-screen-menu">
+        <ul>
+            {% if navigation_left.items %}
+                {% for item in navigation_left.items %}
+                    <li>
+                        <a href="{{ item.url }}">{{ item.text }}</a>
+                    </li>
+                {% endfor %}
+            {% endif %}
+        </ul>
+    </div>
 
     <!--Logo etc-->
     <div class="logo">
@@ -28,17 +47,32 @@
             </svg>
         </a>
     </div>
-    <nav class="nav-items right">
-        <!--Menu-->
-        {% if navigation_right.items %}
-            {% for item in navigation_right.items %}
-                <a href="{{ item.url }}">{{ item.text }}</a>
-            {% endfor %}
-        {% endif %}
-    </nav>
+
+</div>
+
+<div class="ham-menu">
+    <span></span>
+    <span></span>
+    <span></span>
 </div>
 
 <div class="lines-container">
     <hr class="left-line">
     <hr class="right-line">
 </div>
+
+<!--Script for hamburger menu-->
+<script>
+    const hamMenu = document.querySelector(".ham-menu");
+
+    const offScreenMenu = document.querySelector(".off-screen-menu");
+
+    hamMenu.addEventListener("click", () => {
+        hamMenu
+            .classList
+            .toggle("active");
+        offScreenMenu
+            .classList
+            .toggle("active");
+    });
+</script>

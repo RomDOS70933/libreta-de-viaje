@@ -21,7 +21,7 @@ path: home
     Paises visitados
 </h4>
 
-<div id="sectionpais">
+<div id="sectionpais" style="display: grid; grid-template-columns: repeat(5, 1fr); grid-auto-rows: auto; grid-gap: 10px; justify-items: center;">
     <!--Lista de paises-->
     {% if paises.items %}
         {% for item in paises.items %}

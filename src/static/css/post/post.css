@@ -43,3 +43,36 @@ h6 {
 .main-article-content-txt p {
     font-size: 1em;
 }
+
+.posts-banner-container {
+    margin-bottom: 10%;
+}
+
+/* INDEX PAGE*/
+#post-index-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 54px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    background-color: brown;
+}
+
+@media (max-width: 700px) {
+    #post-index-title {
+        margin-top: 200px;
+    }
+}
+
+#post-index-subtitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 100px;
+}

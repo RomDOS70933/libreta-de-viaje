@@ -1,11 +1,9 @@
 /* General tipografía */
 
 body {
-  font-family: var(--font-1);
   line-height: 1.5;
   font-family: 'Lato';
-  font-style: normal;
-  color: rgba(0, 0, 0, 0.7);
+  font-style: normal
 }
 
 h1,

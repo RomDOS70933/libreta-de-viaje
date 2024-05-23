@@ -37,6 +37,97 @@
 
 }
 
+/* off-screen-menu */
+.off-screen-menu {
+    background-color: #FFFDF7;
+    opacity: 0.8;
+    height: 100vh;
+    width: 40%;
+    max-width: 450px;
+    position: fixed;
+    top: 0;
+    right: -450px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: .3s ease;
+    z-index: 5;
+    top: 15%
+}
+
+.off-screen-menu li {
+    list-style-type: none;
+    margin-top: 15px;
+}
+
+.off-screen-menu.active {
+    right: 0;
+}
+
+/* ham menu */
+.ham-menu {
+    top: 3%;
+    right: 3%;
+    height: 50px;
+    width: 40px;
+    position: absolute;
+    z-index: 6;
+}
+
+.ham-menu span {
+    height: 3px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s ease;
+}
+
+.ham-menu span:nth-child(1) {
+    top: 25%;
+}
+
+.ham-menu span:nth-child(3) {
+    top: 75%;
+}
+
+.ham-menu.active span {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.ham-menu.active span:nth-child(1) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.ham-menu.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.ham-menu.active span:nth-child(3) {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+@media (max-width: 850px) {
+    .nav-items {
+        display: none;
+    }
+}
+
+@media (min-width: 850px) {
+    .ham-menu {
+        display: none;
+    }
+
+    .off-screen-menu {
+        display: none;
+    }
+}
+
 /* LINES */
 .lines-container {
     position: relative;
@@ -47,7 +138,7 @@
     position: absolute;
     top: 50%;
     left: 15px;
-    width: calc(100% / 2.2);
+    width: calc((100% / 2.2) - 2%);
     /* The left line stops at 1/3 of the screen */
     transform: translateY(-50%);
     border-top: 2.5px solid;
@@ -58,7 +149,7 @@
     position: absolute;
     top: 50%;
     right: 15px;
-    width: calc(100% / 2.2);
+    width: calc((100% / 2.2) - 2%);
     /* The right line stops at 2/3 of the screen */
     transform: translateY(-50%);
     border-top: 2.5px solid;
