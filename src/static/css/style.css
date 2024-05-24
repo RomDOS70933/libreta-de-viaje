@@ -19,21 +19,36 @@
     margin: 50px;
     height: 500px;
     /* Set height to full viewport height */
-    background-image: url('/static/img/map.svg');
+    background-image: url('/static/img/map.png');
     /* Replace 'your-image.jpg' with your image path */
-    background-size: cover;
+    background-size: contain;
     /* Cover the entire container with the background image */
     background-position: center;
+    background-repeat: no-repeat;
     /* Center the background image */
     display: flex;
     justify-content: center;
     /* Center horizontally */
     align-items: center;
     /* Center vertically */
+
+}
+
+@media (max-width: 700px) {
+    .main-banner-container {
+        margin: 50px;
+        height: 300px;
+    }
 }
 
 .main-banner-txt-container {
     text-align: center;
+}
+
+@media (max-width: 700px) {
+    .main-banner-txt-container {
+        margin-top: 50px
+    }
 }
 
 /* INDEX PAGE*/
@@ -79,7 +94,7 @@
 
 @media (max-width: 700px) {
     #sectionpais {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         /* Four equal columns */
     }
 }

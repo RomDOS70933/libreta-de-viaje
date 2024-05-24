@@ -25,7 +25,7 @@ path: home
     <!--Lista de paises-->
     {% if paises.items %}
         {% for item in paises.items %}
-            <div id="box" style="width: 100px; display: flex; justify-content: center; align-items: center;">
+            <div>
                 <a href="{{ item.url }}">{{ item.text }}</a>
             </div>
         {% endfor %}

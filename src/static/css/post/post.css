@@ -1,9 +1,9 @@
 .main-article-content {
-    margin: 10%;
+    margin: 50px;
 }
 
 .main-article-content-txt {
-    margin-top: 7%;
+    margin-top: 50px;
 }
 
 .main-article-content-txt h1,
@@ -13,7 +13,7 @@ h4,
 h5,
 h6 {
     font-family: 'Lato';
-    margin-bottom: 2%;
+    margin-bottom: 25px;
 }
 
 .main-article-content-txt h1 {
@@ -44,8 +44,14 @@ h6 {
     font-size: 1em;
 }
 
-.posts-banner-container {
-    margin-bottom: 10%;
+.indi-post-banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indi-post-banner-txt-container {
+    text-align: center;
 }
 
 /* INDEX PAGE*/
@@ -56,15 +62,7 @@ h6 {
     /* identical to box height */
     letter-spacing: 0.05em;
     text-align: center;
-    margin-top: 100px;
     margin-bottom: 15px;
-    background-color: brown;
-}
-
-@media (max-width: 700px) {
-    #post-index-title {
-        margin-top: 200px;
-    }
 }
 
 #post-index-subtitle {
@@ -74,5 +72,4 @@ h6 {
     /* identical to box height */
     letter-spacing: 0.05em;
     text-align: center;
-    margin-bottom: 100px;
 }
