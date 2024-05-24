@@ -19,7 +19,7 @@
     margin: 50px;
     height: 500px;
     /* Set height to full viewport height */
-    background-image: url('/static/img/map.png');
+    background-image: url('/static/img/map_2.png');
     /* Replace 'your-image.jpg' with your image path */
     background-size: contain;
     /* Cover the entire container with the background image */
@@ -34,10 +34,10 @@
 
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     .main-banner-container {
         margin: 50px;
-        height: 300px;
+        height: 200px;
     }
 }
 
@@ -45,7 +45,7 @@
     text-align: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     .main-banner-txt-container {
         margin-top: 50px
     }
@@ -73,6 +73,12 @@
     margin-bottom: 100px;
 }
 
+@media (max-width: 750px) {
+    #index-title {
+        font-size: 25px;
+    }
+}
+
 #paises-visitados {
     font-weight: 400;
     font-size: 20px;
@@ -84,6 +90,12 @@
     margin-bottom: 50px;
 }
 
+@media (max-width: 750px) {
+    #paises-visitados {
+        margin-top: 30px;
+    }
+}
+
 #sectionpais {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -92,7 +104,7 @@
     justify-items: center
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     #sectionpais {
         grid-template-columns: repeat(3, 1fr);
         /* Four equal columns */
@@ -111,12 +123,12 @@
     /* Center items vertically */
 }
 
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     .cards-container {
         grid-template-columns: 1fr;
         grid-template-rows: repeat(3, auto);
         gap: 5%;
-        margin-bottom: 170px;
+        margin-bottom: 170px
     }
 }
 
@@ -239,6 +251,12 @@
     /* Center vertically */
 }
 
+@media (max-width: 750px) {
+    .bander-container {
+        height: 175px;
+    }
+}
+
 .guias-img-container {
     text-align: center;
     /* Center text horizontally */
@@ -248,6 +266,12 @@
     font-size: 50px;
     font-weight: 300;
     letter-spacing: 0.05em;
+}
+
+@media (max-width: 750px) {
+    .guias-img-container {
+        font-size: 25px;
+    }
 }
 
 .guias-img-container h4 {
