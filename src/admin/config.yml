@@ -29,8 +29,12 @@ collections:
         label: "tags"
         name: "tags"
         multiple: true
-        create: true
-        options: []
+        options: [
+          "post",
+          "guia",
+          "experiencia"
+        ]
+        default: ["post"]
 
   - label: "Settings"
     name: "settings"
