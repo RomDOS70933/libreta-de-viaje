@@ -237,7 +237,7 @@
 .bander-container {
     height: 250px;
     /* Set height to full viewport height */
-    background-image: url('/static/img/pescatore.jpeg');
+    background-color: #DBEFEC;
     opacity: 0.85;
     /* Replace 'your-image.jpg' with your image path */
     background-size: cover;
@@ -260,9 +260,9 @@
 .guias-img-container {
     text-align: center;
     /* Center text horizontally */
-    color: #f2f2f2;
     opacity: 1;
     /* Text color */
+    color: #666;
     font-size: 50px;
     font-weight: 300;
     letter-spacing: 0.05em;
@@ -274,11 +274,6 @@
     }
 }
 
-.guias-img-container h4 {
-    color: #f2f2f2;
-}
-
 .guias-img-container p {
-    color: #f2f2f2;
     font-size: 20px;
 }

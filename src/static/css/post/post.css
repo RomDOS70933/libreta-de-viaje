@@ -1,5 +1,7 @@
 .main-article-content {
-    margin: 50px;
+    margin-top: 75px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .main-article-content-txt {
@@ -37,12 +39,19 @@ h6 {
 }
 
 .main-article-content-txt h6 {
-    font-size: 1em;
+    font-size: 1.25em;
 }
 
 .main-article-content-txt p {
-    font-size: 1em;
+    font-size: 1.25em;
 }
+
+.main-article-content-txt img {
+    width: 60%;
+    height: 60%;
+}
+
+
 
 .indi-post-banner-container {
     display: flex;

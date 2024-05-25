@@ -88,6 +88,14 @@ path: home
                     <a href="{{post.url}}">{{ post.data.title }}</a>
 
                 </h2>
+                <p>
+                    <time>
+                        {{ post.data.date | readableDate }}
+                    by
+                    <a>{{ post.data.author }}</a>
+
+                    </time>
+                </p>
                 <div class="article-card-description">{{ post.data.description }}</div>
             </div>
             {% set conteo_guias = conteo_guias + 1 %}

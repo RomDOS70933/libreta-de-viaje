@@ -27,14 +27,3 @@ prism: true
         {{ content | safe }}
     </article>
 </div>
-
-<script>
-    // This script block will set the background image using the Nunjucks template variable
-    document.addEventListener("DOMContentLoaded", function () {
-        const bgElement = document.getElementById('main-img-post');
-        const imageUrl = '{{ image }}'; // Nunjucks template variable
-
-        // Set the background image using the template variable
-        bgElement.style.backgroundImage = `url(${imageUrl})`;
-    });
-</script>
