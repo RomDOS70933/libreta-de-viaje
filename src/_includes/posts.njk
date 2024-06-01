@@ -9,14 +9,16 @@ prism: true
             <h1 id="post-index-title">
                 {{ title }}
             </h1>
-            <p>
-                <time>
-                    {{ date | readableDate }}
-                    by
-                    <a>{{ author }}</a>
+            {% if post.data.date %}
+                <p>
+                    <time>
+                        {{ date | readableDate }}
+                        by
+                        <a>{{ author }}</a>
 
-                </time>
-            </p>
+                    </time>
+                </p>
+            {% endif %}
             <h4 id="post-index-subtitle">
                 {{ description }}
             </h4>

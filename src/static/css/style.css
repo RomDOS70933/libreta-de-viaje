@@ -81,7 +81,6 @@
 
 #paises-visitados {
     font-weight: 400;
-    font-size: 20px;
     line-height: 24px;
     /* identical to box height */
     letter-spacing: 0.05em;
@@ -119,8 +118,6 @@
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     /* Center items horizontally */
-    align-items: center;
-    /* Center items vertically */
 }
 
 @media (max-width: 750px) {
@@ -134,7 +131,7 @@
 
 .article-card {
     width: calc(70%);
-    height: 400px;
+    height: 430px;
     /* Adjust the width as needed */
     padding: 0;
     box-shadow: 4px 4px 10px 2px rgba(0, 0, 0, 0.05);
@@ -170,18 +167,23 @@
     font-size: 1.2em;
     margin-top: 20px;
     margin-left: 20px;
-    margin-right: 20px;
+    margin-right: 20px
+}
+
+.article-card p {
+    font-size: 0.8em;
+    margin-left: 20px;
+    margin-right: 20px
 }
 
 .article-card-description {
-    padding-top: 10px;
     padding-left: 20px;
     padding-right: 20px;
     font-size: 1em;
     color: #666;
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 4;
+    -webkit-line-clamp: 3;
     /* Adjust the number of lines to show */
     -webkit-box-orient: vertical;
 }
