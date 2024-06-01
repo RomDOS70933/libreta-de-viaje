@@ -1,0 +1,54 @@
+---
+title: ARTICULOS
+subtitle: Articulos sobre Hong-Kong
+layout: default
+---
+
+<!--HERO BANNER-->
+<div class="posts-banner-container">
+    <div class="posts-banner-txt-container">
+        <h1 id="index-title">
+            {{ title }}
+        </h1>
+        <h4 id="index-subtitle">
+            {{ subtitle }}
+        </h4>
+    </div>
+</div>
+
+<section class="list-posts">
+    {% set postslist = collections.hong-kong %}
+
+    {% for post in postslist | reverse %}
+        <article class="list-posts-element">
+            <h2>
+                <a href="{{ post.url | url }}">
+                    {% if post.data.title %}
+                        {{ post.data.title }}
+                    {% else %}
+                        Untitled
+                    {% endif %}
+                </a>
+            </h2>
+            <p class="post-info">
+                <time>
+                    {{ post.date | readableDate }}
+                    by
+                <a>{{ post.data.author }}</a>
+                </time>
+            </p>
+            {% if post.data.description %}
+                <p>
+                    {{ post.data.description }}
+                </p>
+            {% endif %}
+            <!--LEER MAS-->
+            <div class="post-button-container">
+                <div class="post-container">
+                    <a href="{{ post.url | url }}" class="post-custom-button">LEER MAS →</a>
+                    <div class="post-bottom-rectangle"></div>
+                </div>
+            </div>
+        </article>
+    {% endfor %}
+</section>

@@ -32,7 +32,23 @@ collections:
         options: [
           "post",
           "guia",
-          "experiencia"
+          "experiencia",
+          "belgica",
+          "canada",
+          "corea-del-sur",
+          "espana",
+          "finlandia",
+          "francia",
+          "grecia",
+          "hong-kong",
+          "hungria",
+          "italia",
+          "japon",
+          "mauricio",
+          "mexico",
+          "peru",
+          "portugal",
+          "usa"
         ]
         default: ["post"]
 

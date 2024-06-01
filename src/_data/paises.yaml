@@ -1,33 +1,33 @@
 items:
   - text: Bélgica
-    url: /articles
+    url: /articulos/belgica
   - text: Canadá
-    url: /articles
+    url: /articulos/canada
   - text: Corea del Sur
-    url: /articles
+    url: /articulos/corea-del-sur
   - text: España
-    url: /articles
-  - text: USA
-    url: /articles
-  - text: Francia
-    url: /articles
+    url: /articulos/espana
   - text: Finlandia
-    url: /articles
+    url: /articulos/finlandia
+  - text: Francia
+    url: /articulos/francia
   - text: Grecia
-    url: /articles
+    url: /articulos/grecia
   - text: Hong-Kong
-    url: /articles
+    url: /articulos/hong-kong
   - text: Hungria
-    url: /articles
+    url: /articulos/hungria
   - text: Italia
-    url: /articles
+    url: /articulos/italia
   - text: Japon
-    url: /articles
+    url: /articulos/japon
   - text: Mauricio
-    url: /articles
+    url: /articulos/mauricio
   - text: Mexico
-    url: /articles
+    url: /articulos/mexico
   - text: Peru
-    url: /articles
+    url: /articulos/peru
   - text: Portugal
-    url: /articles
+    url: /articulos/portugal
+  - text: USA
+    url: /articulos/usa
