@@ -7,6 +7,7 @@ image: /static/img/post1.webp
 date: 2016-11-19T16:23:34.118Z
 tags:
   - post
+  - finlandia
 ---
 Este post lo escribo pasadas unas semanas de la primera nevada.
 
