@@ -8,6 +8,7 @@ image: /static/img/niza2_fotor.webp
 date: 2016-11-19T15:51:06.581Z
 tags:
   - post
+  - guia
 ---
 Me encanta ir allí y sin duda alguna, no me importa repetir ciudad. Aunque no nos vamos a engañar, París definitivamente es y será la ciudad más bonita por muchas otras ciudades que visite a lo largo del tiempo.
 

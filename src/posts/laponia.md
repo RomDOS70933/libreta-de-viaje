@@ -10,6 +10,7 @@ date: 2017-01-13T15:21:51.897Z
 tags:
   - post
   - experiencia
+  - guia
 ---
 ![rudolph-handsome](/static/img/dscn2048_fotor21.webp "El reno de Snata Claus AKA Rudolph durante uno de sus pocos tiempos de descanso")
 
