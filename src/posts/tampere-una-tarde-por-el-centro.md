@@ -8,6 +8,7 @@ image: /static/img/dscn2590_fotor7.jpeg
 date: 2016-09-27T15:39:59.408Z
 tags:
   - post
+  - finlandia
 ---
 No estaba planeado y al final resultó ser una buenísima tarde, en muy buena compañía.
 
