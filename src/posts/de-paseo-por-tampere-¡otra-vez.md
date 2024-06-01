@@ -7,6 +7,7 @@ image: /static/img/dscn2788_fotor.jpeg
 date: 2016-11-18T16:27:47.253Z
 tags:
   - post
+  - finlandia
 ---
 He de decir que estas fotos, aunque las publique en noviembre fueron tomadas en octubre, pero he estado casi sin tiempo libre de publicar nada hasta ahora. Aunque, ¡más vale tarde que nunca!
 
