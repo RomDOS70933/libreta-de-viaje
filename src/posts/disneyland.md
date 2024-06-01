@@ -10,6 +10,7 @@ date: 2017-01-13T15:14:28.549Z
 tags:
   - post
   - experiencia
+  - francia
 ---
 En cuanto al tiempo en nuestra visita, no fuimos muy afortunados, ya que esa mañana había estado lloviendo y todo estaba nublado y con agua. Aún así, no volvió a llover en toda la visita. Quizás eso sería la única parte negativa del día, o los tiempos de espera para las atracciones. Eran unas fechas un poco críticas en afluencia de gente y en alguna atracciones había que esperar mucho (y cuando digo mucho, me refiero… ¡¡a 1 hora o más de media!!)
 
